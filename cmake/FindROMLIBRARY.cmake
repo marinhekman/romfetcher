@@ -21,7 +21,7 @@ if (ROMLIBRARY_INCLUDE_DIR_INTERNAL)
             ROMLIBRARY_VERSION "${_ver_line}")
     unset(_ver_line)
 
-    if (${ROMLIBRARY_VERSION} GREATER_EQUAL 110 AND ${ROMLIBRARY_VERSION} LESS_EQUAL 200)
+    if (${ROMLIBRARY_VERSION} GREATER_EQUAL 110 AND ${ROMLIBRARY_VERSION} LESS_EQUAL 211)
         message("Romlibrary Version found: " ${ROMLIBRARY_VERSION})
     else ()
         message("Not supported Romlibrary version found: " ${ROMLIBRARY_VERSION})
